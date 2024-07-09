@@ -1,0 +1,306 @@
+
+/* Body */
+
+.About_grid {
+  float:left;
+}
+
+
+.daniel\.dev\_header {
+  padding-left: 35px;
+  padding-top: 35px;
+  font-family: 'Raleway', sans-serif;
+}
+
+/* Buttons Panel */
+
+.option_pannel{
+  float:right;
+  padding-right:190px;
+  }
+
+.about_me_button,
+.about_me_button *,
+.about_me_button :after,
+.about_me_button :before,
+.about_me_button:after,
+.about_me_button:before {
+border: 0 solid;
+box-sizing: border-box;
+}
+.about_me_button {
+-webkit-tap-highlight-color: transparent;
+-webkit-appearance: button;
+background-color: #21275b;
+background-image: none;
+color: #fff;
+cursor: pointer;
+font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+  Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
+  Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+font-size: 100%;
+font-weight: 900;
+line-height: 1.5;
+margin: 0;
+-webkit-mask-image: -webkit-radial-gradient(#000, #fff);
+padding: 0;
+text-transform: uppercase;
+}
+.about_me_button:disabled {
+cursor: default;
+}
+.about_me_button:-moz-focusring {
+outline: auto;
+}
+.about_me_button svg {
+display: block;
+vertical-align: middle;
+}
+.about_me_button [hidden] {
+display: none;
+}
+.about_me_button {
+border-radius: 99rem;
+border-width: 2px;
+padding: 0.8rem 3rem;
+}
+.about_me_button:hover {
+color: #404ca9;
+}
+
+.projects_button,
+.projects_button *,
+.projects_button :after,
+.projects_button :before,
+.projects_button:after,
+.projects_button:before {
+border: 0 solid;
+box-sizing: border-box;
+}
+.projects_button {
+-webkit-tap-highlight-color: transparent;
+-webkit-appearance: button;
+background-color: #21275b;
+background-image: none;
+color: #fff;
+cursor: pointer;
+font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+  Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
+  Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+font-size: 100%;
+font-weight: 900;
+line-height: 1.5;
+margin: 0;
+-webkit-mask-image: -webkit-radial-gradient(#000, #fff);
+padding: 0;
+text-transform: uppercase;
+border-radius: 99rem;
+border-width: 2px;
+padding: 0.8rem 3rem;
+}
+.projects_button:disabled {
+cursor: default;
+}
+.projects_button:-moz-focusring {
+outline: auto;
+}
+.projects_button svg {
+display: block;
+vertical-align: middle;
+}
+.projects_button [hidden] {
+display: none;
+}
+.projects_button:hover {
+color: #404ca9;
+}
+
+.studies_button,
+.studies_button *,
+.studies_button :after,
+.studies_button :before,
+.studies_button:after,
+.studies_button:before {
+border: 0 solid;
+box-sizing: border-box;
+}
+.studies_button {
+-webkit-tap-highlight-color: transparent;
+-webkit-appearance: button;
+background-color: #21275b;
+background-image: none;
+color: #fff;
+cursor: pointer;
+font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+  Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
+  Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+font-size: 100%;
+font-weight: 900;
+line-height: 1.5;
+margin: 0;
+-webkit-mask-image: -webkit-radial-gradient(#000, #fff);
+padding: 0;
+text-transform: uppercase;
+border-radius: 99rem;
+border-width: 2px;
+padding: 0.8rem 3rem;
+}
+.studies_button:disabled {
+cursor: default;
+}
+.studies_button:-moz-focusring {
+outline: auto;
+}
+.studies_button svg {
+display: block;
+vertical-align: middle;
+}
+.studies_button [hidden] {
+display: none;
+}
+.studies_button:hover {
+color: #404ca9;
+}
+
+
+
+/* Main Title */
+
+.portfolio_img_container {
+padding-left: 95px;
+padding-top: 75px;
+display: flex;
+height: 300px;
+padding-left:480px ;
+}
+
+.circular_img {
+display: flex;
+width: 350px; /* Adjust as needed */
+height: 350px; /* Adjust as needed */
+border-radius: 50%; /* Makes the image circular */
+object-fit: cover; /* Ensures the image covers the circular area */
+border: 2px solid #080808; /* Optional: Add a border around the circular image */
+box-shadow: 0 20px 20px rgba(59, 50, 104, 0.597); /* Adds a subtle shadow below the image */
+}
+
+.main_title{
+  display: flex;
+  padding-left: 220px;
+  padding-top: 150px;
+  font-family: 'Lexend', sans-serif;
+  font-size: larger;
+}
+
+.engineer_word{
+
+  font-size: 50px;
+  padding-bottom: 1px;
+}
+
+.main_description {
+  font-size: large;
+  display: flex;
+  padding-left: 220px;
+  font-family: 'Lexend';
+  font-weight: 300;
+  font-size: 15px;
+  opacity: 0.6;
+  line-height: 2.0;
+}
+
+.lang_imgs {
+  display: flex;
+  padding-right:1000px;
+  padding-left:200px;
+  padding-top: 20px;
+  margin-bottom: 300px;
+}
+
+.js_img img {
+  padding-top: 3px;
+  padding-left: 10px;
+  outline: 5px;
+  width: 30px;
+  height: 30px; 
+}
+
+.python_img img {
+  padding-top: 3px;
+  padding-left: 19px;
+  outline: 5px;
+  width: 35px;
+  height: 40px; 
+}
+
+.html_img img {
+  padding-left: 19px;
+  outline: 5px;
+  width: 45px;
+  height: 40px;
+}
+
+.css_img img {
+  padding-left: 25px;
+  outline: 5px;
+  width: 35px;
+  height: 42px; 
+}
+
+.body {
+  /* background: rgb(191,204,241); */
+  background: linear-gradient(0deg, rgb(135, 156, 215) 0%, rgba(255,255,255,1) 100%);
+  /* opacity: 0.9;
+  
+  background-size: 10px 10px; */
+}
+
+.tech_stack {
+  padding-left: 60px;
+  font-family: 'Lexend', sans-serif;
+} 
+
+.bar_symbol {
+  padding-right: 10px;
+}
+
+.About_me_title {
+  font-size:50px;
+  color:#2d1d1d;
+  text-align: center;
+  font-family:'Raleway', sans-serif;
+}
+
+hr {
+  border: none; 
+  height: 2px; 
+  background-color: #0d0d0d; 
+  width: 500px;
+}
+
+
+.About_me_txt {
+  font-size:14px;
+  padding-bottom:15px;
+  font-family: 'Lexend';
+  opacity: 0.6;
+  line-height: 2.0;
+  font-weight: 400;
+  text-align: center;
+
+}
+
+/* Second Background */
+
+
+
+.linkedin_logo_main {
+  width: 150px;
+  padding-left: 860px;
+
+}
+
+.about_me_pannel {
+  margin-bottom:150px;
+}
+
