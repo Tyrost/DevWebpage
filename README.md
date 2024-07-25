@@ -1,2 +1,2 @@
 # DevWebpage
-Learning HTML and CSS through a personal, unfinished developer webpage project.
+Learning HTML and CSS through a personal, unfinished and simple developer webpage project.
